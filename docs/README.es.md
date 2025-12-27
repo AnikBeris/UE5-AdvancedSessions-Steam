@@ -2,17 +2,16 @@
   <strong>-------></strong>
   <a href="/README.md">Русский</a> |
   <a href="/docs/README.en.md">English</a> |
-  <a href="/docs/README.es.md">Español</a> |
-  <a href="/docs/README.zh.md">Chino</a> |
+  <a href="/docs/README.es.md">Spanish</a> |
+  <a href="/docs/README.zh.md">Chinese</a> |
   <strong><-------</strong>
 </p>
-
 
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../media/logo-dark.png">
-    <img alt="Logotipo del proyecto" src="../media/logo-light.png" width="512" height="auto">
+    <img alt="Project Logo" src="../media/logo-light.png" width="512" height="auto">
   </picture>
 </p>
 
@@ -32,40 +31,39 @@
 
 
 <h1 align="center"> 
-Información útil sobre el desarrollo de proyectos en Unreal Engine 5 utilizando el plugin AdvancedSessions-Steam
+Información útil sobre el desarrollo de un proyecto en Unreal Engine 5 utilizando el plugin AdvancedSessions-Steam
 </h1>
 
 <h2 align="center">
-> 💡 Este material está orientado a usuarios con experiencia.
+> 💡 El material está orientado para usuarios con conocimientos previos.
 </h2>
 
 
 * * * * * * * * * * * * * * * * * * 
 * * * * * * * * * * * * * * * * * * 
-
 
 
 <h2 align="center">
-⚠️ Exención de Responsabilidad ⚠️
+⚠️ Descargo de responsabilidad ⚠️
 </h2>
 
 <p align="center">
-  El autor no se responsabiliza de las posibles consecuencias derivadas del uso de este proyecto.<br>
+  El autor no se hace responsable de las posibles consecuencias del uso de este proyecto.<br>
   Úselo bajo su propio riesgo.
 </p>
 
 <details align="center"> 
-    <summary>⚠️ Texto completo ⚠️</summary>
+    <summary>⚠️texto completo⚠️</summary>
     
 Utilice los materiales de este repositorio bajo su propio riesgo.
 
-1. Al usar los materiales de este repositorio, usted acepta automáticamente las condiciones del acuerdo de licencia correspondiente.
+1. Al usar los materiales de este repositorio, usted acepta automáticamente los términos del acuerdo de licencia relacionado con ellos.
 
-2. El autor no garantiza explícita ni implícitamente la precisión, integridad o idoneidad de estos materiales para ningún propósito particular. 
+2. El autor no ofrece ninguna garantía, ya sea implícita o explícita, sobre la precisión, integridad o idoneidad de estos materiales para cualquier propósito específico.
    
-3. El autor no se hace responsable de ningún perjuicio, incluyendo, pero no limitado a, daños directos, indirectos, incidentales, consecuenciales o especiales derivados del uso o la imposibilidad de uso de los materiales de este repositorio o su documentación asociada, incluso si los posibles daños fueron anticipados.
+3. El autor no se hace responsable de ningún daño, incluidos, entre otros, daños directos, indirectos, incidentales, consecuenciales o especiales, que resulten del uso o la imposibilidad de usar los materiales de este repositorio o la documentación asociada, incluso si se le ha informado previamente de la posibilidad de tales daños.
 
-4. Al utilizar estos materiales, usted reconoce y asume todos los riesgos asociados con su aplicación. Además, acepta que el autor no puede ser considerado responsable de problemas o consecuencias derivadas de su uso.
+4. Al usar estos materiales de este repositorio, usted acepta y asume todos los riesgos asociados con su aplicación. Además, usted acepta que el autor no puede ser considerado responsable de ningún problema o consecuencia que surja como resultado de su uso.
 
 </details> 
 
@@ -76,7 +74,7 @@ Utilice los materiales de este repositorio bajo su propio riesgo.
 </h3>
 
 <p align="center"> 
-Si este proyecto le fue útil, puede valorarlo dándole una estrella.:star2: 
+Si este proyecto te resultó útil, puedes valorarlo con una estrellita.:star2: 
 </p>
 
 <p align="center">
@@ -91,7 +89,7 @@ Si este proyecto le fue útil, puede valorarlo dándole una estrella.:star2:
 
 
 <h4 align="center"> 
-Las donaciones son muy bienvenidas, por pequeñas que sean, y muchas gracias. 😌 
+Las donaciones son muy bienvenidas, por pequeñas que sean, y de corazón, ¡muchas gracias! 😌 
 </h1>
 
 <div align="center">
@@ -109,7 +107,7 @@ Las donaciones son muy bienvenidas, por pequeñas que sean, y muchas gracias. �
 ---
 
 <p align="center">
-  <sub> Gracias por su interés en el proyecto y por su apoyo 💙 </sub>
+  <sub> Gracias por tu atención al proyecto y por tu apoyo 💙 </sub>
 </p>
 
 ---
@@ -119,7 +117,7 @@ Las donaciones son muy bienvenidas, por pequeñas que sean, y muchas gracias. �
 
 
 
-## 📚 Contenido
+## 📚 Índice
 
 - [Introducción](#-introducción)
 
@@ -128,7 +126,7 @@ Las donaciones son muy bienvenidas, por pequeñas que sean, y muchas gracias. �
 
 ## 🔗 Enlaces útiles
 
-  
+
 
 * * * * * * * * * * * * * * * * * * 
 * * * * * * * * * * * * * * * * * * 
@@ -136,7 +134,7 @@ Las donaciones son muy bienvenidas, por pequeñas que sean, y muchas gracias. �
 
 
 <h2 align="center">
-  <a href="#-contenido"> ⬆️ Arriba </a> 
+  <a href="#-índice"> ⬆️ Subir arriba </a> 
 </h2>
 
 <h1 align="center"> 
@@ -145,10 +143,10 @@ Requisitos técnicos
 
 
 
-## 📊 Plugin instalado
+## 📊 Plugins instalados
 
 <details> 
-    <summary>⚙️ Descripción expandida</summary>
+    <summary>⚙️ Desplegar descripción</summary>
 
 - **Advanced Sessions Plugin:** 
 - **Steam:** 
@@ -160,9 +158,9 @@ Requisitos técnicos
 ## 📊 Desactivación de plugins
 
 <details> 
-    <summary>⚙️ Descripción expandida</summary>
+    <summary>⚙️ Desplegar descripción</summary>
 
-- **SteamSockets:** El driver del plugin SteamSockets es necesario para el funcionamiento de Steam, pero dentro del marco del Advanced Sessions Plugin debe ser desactivado.
+- **SteamSockets:** El controlador del plugin SteamSockets es necesario para el funcionamiento de Steam pero, en el marco de Advanced Sessions Plugin, debe desactivarse.
 
 </details> 
 
@@ -171,51 +169,72 @@ Requisitos técnicos
 ## 📊 Funciones || Características
 
 <details> 
-    <summary>⚙️ Descripción expandida</summary>
+    <summary>⚙️ Desplegar descripción</summary>
 
 
 
 </details>
 
 
-# Project - Maps & Modes
+<h2 align="center">
+  <a href="#-índice">⬆️ Subir arriba</a> 
+</h2>
+
+###### # Project - Maps & Modes
+
+<h1 align="center"> 
+Project - Maps & Modes
+</h1>
 
 <div align="center">
-  <img style="width: 90%; height: auto;" alt="Project-Maps&Modes" src="../media/Tutorial/Article_1/Project-Maps&Modes.png"/>
+  <img style="width: 70%; height: auto;" alt="Project-Maps&Modes" src="../media/Tutorial/Article_1/Project-Maps&Modes.png"/>
 </div>
 
 ## Propósito de la sección
 
-La sección **Project - Maps & Modes** define los puntos clave de entrada del flujo de juego y la arquitectura del proyecto. Aquí se configura:
+La sección **Project - Maps & Modes** define puntos clave de entrada en el flujo del juego y la arquitectura del proyecto. Aquí se configura:
 
 ---
 
 - qué `GameMode` se utiliza por defecto;
 - qué mapas (maps) se cargan al iniciar el editor, el juego y el servidor;
 - qué clases base se aplican (`Pawn`, `Controller`, `HUD`, etc.);
-- cómo reemplazar automáticamente `GameMode` dependiendo del mapa o su prefijo.
+- cómo reemplazar automáticamente el `GameMode` dependiendo del mapa o su prefijo.
 
-De hecho, esta es la **puerta de entrada a la arquitectura del flujo de juego**.
+De hecho, este es el **punto de entrada a la arquitectura del flujo del juego**.
 
----
+* * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * 
 
-# Default Modes
+
+
+
+<h2 align="center">
+  <a href="#-índice">⬆️ Subir arriba</a> 
+</h2>
+
+###### # Default Modes
+
+<h1 align="center"> 
+Default Modes
+</h1>
 
 <div align="center">
   <img style="width: 90%; height: auto;" alt="DefaultModes - Default GameMode" src="../media/Tutorial/Article_1/DefaultModes -Default GameMode.png"/>
 </div>
 
-
 ## Default GameMode
 
-**Default GameMode** - es el `GameMode` que será utilizado:
+<details>
+    <summary> ⚙️ Desplegar descripción </summary>
 
-- si el mapa no redefine `GameMode`;
-- si `GameMode` no está especificado a través de parámetros URL;
+**Default GameMode** - es el `GameMode` que se utilizará:
+
+- si el nivel no redefine el `GameMode`;
+- si el `GameMode` no está especificado a través de parámetros URL;
 - si no funcionan los prefijos o alias.
 
-
-#### Uso típico
+#### Aplicación típica
 
 - `GM_Menu` - menú principal
 - `GM_Gameplay` - juego principal
@@ -223,52 +242,68 @@ De hecho, esta es la **puerta de entrada a la arquitectura del flujo de juego**.
 
 #### Importante
 
-- `GameMode` existe **solo en el servidor** (o en un jugador único, como server-authority).
-- Los clientes obtienen datos a través de `GameState`.
+- `GameMode` existe **solo en el servidor** (o en el jugador único, como server-authority).
+- Los clientes reciben datos a través de `GameState`.
 
----
+</details> 
 
-## Selected GameMode
+* * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * 
+
+
+
+<h2 align="center">
+  <a href="#-índice">⬆️ Subir arriba</a> 
+</h2>
+
+###### # Selected GameMode
+
+<h1 align="center"> 
+Selected GameMode
+</h1>
 
 <div align="center">
-  <img style="width: 90%; height: auto;" alt="DefaultModes - Default GameMode" src="../media/Tutorial/Article_1/DefaultModes -Selected GameMode.png"/>
+  <img style="width: 90%; height: auto;" alt="DefaultModes -Selected GameMode" src="../media/Tutorial/Article_1/DefaultModes -Selected GameMode.png"/>
 </div>
 
-Este bloque define un conjunto de clases para el `GameMode` seleccionado (en este caso `GM_Menu`).
+**Selected GameMode** - Este bloque define un conjunto de clases para el `GameMode` seleccionado (en este caso `GM_Menu`).
+
+<details> 
+    <summary> ⚙️ Desplegar descripción </summary>
 
 ---
 
 ### Default Pawn Class
 
-Define qué `Pawn` será generado automáticamente para el jugador.
+Determina qué `Pawn` será generado automáticamente para el jugador.
 
 Ejemplos:
 
-- `Pawn` - básico para el menú
-- `Character` - si se requiere un personaje completo
+- `Pawn` - un placeholder para el menú
+- `Character` - si se necesita un personaje completo
 - `SpectatorPawn` - si el jugador no debe controlar un cuerpo
 
-Para menús:
+Para el menú:
 
-- frecuentemente se usa un `Pawn` vacío o lógica mínima sin control.
+- se usa a menudo un `Pawn` vacío o lógica mínima sin control.
 
 ---
 
 ### HUD Class
 
-Clase `HUD` (obsoleta, pero aún soportada).
+Clase `HUD` (obsoleta, pero todavía admitida).
 
-Utilizada si:
+Se utiliza si:
 
-- la interfaz gráfica se dibuja mediante `DrawHUD`;
-- se aplica lógica antigua del HUD.
+- la interfaz de usuario se dibuja a través de `DrawHUD`;
+- se aplica la lógica antigua de HUD.
 
 Práctica moderna:
 
 - `HUD` vacío;
-- la interfaz gráfica se crea mediante **UMG** en `PlayerController`.
+- la interfaz de usuario se crea mediante **UMG** en `PlayerController`.
 
-Para menús es aceptable usar un `HUD_Menu`.
+Para el menú es aceptable usar `HUD_Menu`.
 
 ---
 
@@ -276,21 +311,21 @@ Para menús es aceptable usar un `HUD_Menu`.
 
 Una de las clases clave de la arquitectura.
 
-Responsable de:
+Es responsable de:
 
 - entrada (`Input`);
-- creación de la interfaz gráfica;
-- control de la cámara;
-- alternar modos de entrada (UI / Game).
+- creación de UI;
+- control de cámara;
+- cambio de modos de entrada (UI / Game).
 
 Ejemplos:
 
-**En menús**
+**En el menú**
 - `PC_Menu`
-- `Show Mouse Cursor` habilitado
+- activado `Show Mouse Cursor`
 - `Set Input Mode UI Only`
 
-**En juego**
+**En el juego**
 - `PC_Gameplay`
 - `Game Only` o `Game and UI`
 
@@ -298,19 +333,19 @@ Ejemplos:
 
 ### Game State Class
 
-`GameState` existe **en el servidor y en los clientes**.
+`GameState` existe **en el servidor y los clientes**.
 
 Se utiliza para:
 
 - temporizadores;
-- la etapa actual del partido;
-- el estado global del juego.
+- estado actual del partido;
+- estado global del juego.
 
 Ejemplo:
 
 - `Server_GameState`
 
-Incluso en un solo jugador, se recomienda almacenar datos en `GameState` en lugar de `GameMode`.
+Incluso en jugador único se recomienda almacenar los datos en `GameState` y no en `GameMode`.
 
 ---
 
@@ -320,7 +355,7 @@ Incluso en un solo jugador, se recomienda almacenar datos en `GameState` en luga
 
 Almacena:
 
-- puntajes;
+- puntos;
 - nombre;
 - equipo;
 - habilidades;
@@ -328,505 +363,29 @@ Almacena:
 
 Aplicación:
 
-- en multijugador, es obligatorio;
-- en un solo jugador, es recomendado.
+- en multijugador - obligatorio;
+- en jugador único - recomendable.
 
 ---
 
 ### Spectator Class
 
-`Pawn` utilizado:
+`Pawn` que se utiliza:
 
 - al morir;
 - al observar;
-- al no tener un `Pawn` activo.
+- en ausencia de un `Pawn` activo.
 
-Por defecto, `SpectatorPawn` es una elección adecuada.
+Por defecto, `SpectatorPawn` es una elección correcta.
 
----
-
-## Advanced (GameMode)
-
-<div align="center">
-  <img style="width: 90%; height: auto;" alt="DefaultModes - Default GameMode" src="../media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced.png"/>
-</div>
-
-### Global Default Server Game Mode
-
-Se utiliza **solo para servidores dedicados**.
-
-Si se configura:
-
-- el servidor siempre usará este `GameMode`;
-- independientemente del mapa.
-
-Normalmente:
-
-- `None` - opción estándar;
-- aplicada en compilaciones de servidor.
-
----
-
-### Game Mode Map Prefixes
-
-<div align="center">
-  <img style="width: 80%; height: auto;" alt="DefaultModes - Default GameMode" src="../media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced-Prefixes.png"/>
-</div>
-
-<div align="center">
-  <img style="width: 40%; height: auto;" alt="DefaultModes - Default GameMode" src="../media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced-PrefixesLevel.png"/>
-</div>
-
-Permite asignar automáticamente un `GameMode` según el prefijo del mapa.
-
-Ejemplo:
-
-- `MP_` -> `GM_Multiplayer`
-- `SP_` -> `GM_Singleplayer`
-- `MENU_` -> `GM_Menu`
-
-#### Aplicación práctica
-
-- una sola compilación;
-- diferentes modos sin configuraciones manuales de mapas.
-
-Extremadamente útil en proyectos medianos y grandes.
-
-### Configuración en DefaultEngine.ini
-
-```ini
-[/Script/EngineSettings.GameMapsSettings]
-+GameModeMapPrefixes=(Prefix="MENU_",GameMode="/Game/GameModes/GM_Menu.GM_Menu_C")
-+GameModeMapPrefixes=(Prefix="SP_",GameMode="/Game/GameModes/GM_Single.GM_Single_C")
-+GameModeMapPrefixes=(Prefix="MP_",GameMode="/Game/GameModes/GM_Multiplayer.GM_Multiplayer_C")
-+GameModeMapPrefixes=(Prefix="COOP_",GameMode="/Game/GameModes/GM_Coop.GM_Coop_C")
-
-```
-
----
-
-### Game Mode Class Aliases
-
-<div align="center">
-  <img style="width: 90%; height: auto;" alt="DefaultModes - Default GameMode" src="../media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced-Aliases.png"/>
-</div>
-
-Permite usar alias cortos para `GameMode`. Ideal cuando los mapas son los mismos, pero las reglas del juego son específicas.
-
-Ejemplo clásico PvP:
-
-- `"DM"`   -> `GM_Deathmatch`
-- `"TDM"`  -> `GM_TeamDeathmatch`
-- `"CTF"`  -> `GM_CaptureTheFlag`
-- `"FFA"`  -> `GM_FreeForAll`
-- `"KOTH"` -> `GM_KingOfTheHill`
-- `"SD"`   -> `GM_SearchAndDestroy`
-
-Ejemplo clásico PvE:
-
-- `"COOP"`  -> `GM_Coop`
-- `"PVE"`   -> `GM_PvE`
-- `"SURV"`  -> `GM_Survival`
-- `"HORDE"` -> `GM_Horde`
-- `"WAVES"` -> `GM_Waves`
-
-Modos Lobby y de servicio:
-
-- `"MENU"`  -> `GM_Menu`
-- `"LOBBY"` -> `GM_Lobby`
-- `"ENTRY"` -> `GM_Entry`
-
-Modo individual:
-
-- `"SP"`       -> `GM_Singleplayer`
-- `"STORY"`    -> `GM_Story`
-- `"CAMPAIGN"` -> `GM_Campaign`
-
-
-### Configuración en DefaultEngine.ini
-
-```ini
-[/Script/EngineSettings.GameMapsSettings]
-+GameModeClassAliases=(ShortName="DM",GameMode="/Game/GameModes/GM_Deathmatch.GM_Deathmatch_C")
-+GameModeClassAliases=(ShortName="TDM",GameMode="/Game/GameModes/GM_TeamDeathmatch.GM_TeamDeathmatch_C")
-+GameModeClassAliases=(ShortName="COOP",GameMode="/Game/GameModes/GM_Coop.GM_Coop_C")
-+GameModeClassAliases=(ShortName="MENU",GameMode="/Game/GameModes/GM_Menu.GM_Menu_C")
-```
-
-
-## Aplicación práctica
-### A través de la consola o línea de comandos
-
-```ini
-open Lvl_Arena?game=DM
-```
-
-Unreal Engine busca `DM` en `Game Mode Class Aliases`, ignora el `Default GameMode` y lo reemplaza por `GM_Deathmatch`,
-
-
-### A través de Server Startup
-
-```ini
-UEGameServer.exe Lvl_Map?game=TDM?listen
-```
-
-### Muy útil para:
-
-- servidores dedicados,
-- CI/CD,
-- pruebas automáticas.
-
----
-
-### Cuando NO son necesarios los alias
-
-Los alias no son esenciales si utilizas:
-
-- `Map Override` en World Settings,
-- `Game Mode Map Prefixes`,
-- un `Default GameMode` fijado.
-
-> En proyectos pequeños singleplayer, los alias rara vez se usan.
-
-
-### Esquema recomendado para un proyecto real
-
-Usar los tres mecanismos según corresponda:
-|Mecanismo|Propósito|
-|:---------:|:---------|
-| Default GameMode | Fallback seguro |
-| Map Override | Comportamiento explícito del mapa |
-| Prefixes | Mapas masivos |
-| Aliases | CLI, servidor, automatización |
-
----
-
-
-
-
-
-
-## Default Maps
-
-<div align="center">
-  <img style="width: 90%; height: auto;" alt="DefaultModes - Default GameMode" src="../media/Tutorial/Article_1/Default Maps.png"/>
-</div>
-
-### Editor Startup Map
-
-El mapa que:
-
-- automáticamente se abre al iniciar el editor.
-
-Recomendación:
-
-- mapa ligero;
-- no la escena principal del juego;
-- a menudo uno de prueba o menú.
-
----
-
-### Editor Template Map Overrides
-
-Uso raro.
-
-Propósito:
-
-- sobrescribir mapas de plantilla (template maps);
-- pertinente para plantillas personalizadas.
-
-En la mayoría de los proyectos no se utiliza.
-
----
-
-### Game Default Map
-
-El mapa que:
-
-- se carga al iniciar el juego;
-- utilizado en el packaged build.
-
-Usualmente:
-
-- el menú principal;
-- o la primera escena del juego.
-
----
-
-## Advanced (Maps)
-
-<div align="center">
-  <img style="width: 90%; height: auto;" alt="DefaultModes - Default GameMode" src="../media/Tutorial/Article_1/Default Maps - Advanced.png"/>
-</div>
-
-### Local Map Options
-
-Permite definir parámetros por defecto en la URL.
-
-Ejemplo:
-
-```ini
-?listen?game=GM_Gameplay
-```
-
-Usado para:
-
-- pruebas;
-- servidores locales;
-- parámetros automáticos de inicio.
-
----
-
-### Transition Map
-
-Mapa que:
-
-- se carga temporalmente durante los cambios de nivel (Seamless Travel).
-
-Uso multijugador:
-
-- para evitar parones;
-- para transiciones suaves entre niveles.
-
-En un solo jugador, usualmente no es necesario.
-
----
-
-### Server Default Map
-
-El mapa que:
-
-- se carga al iniciar un servidor dedicado.
-
-Por lo general:
-
-- `Entry`;
-- o `Lvl_Lobby`.
-
-Importante:
-
-- no afecta al cliente;
-- solo aplica en compilaciones de servidor.
-
----
-
-### Configuración en DefaultEngine.ini
-
-```ini
-[/Script/EngineSettings.GameMapsSettings]
-GameDefaultMap=/Game/Maps/MENU_Main
-EditorStartupMap=/Game/Maps/Test_Map
-GlobalDefaultGameMode=/Game/GameModes/GM_Menu.GM_Menu_C
-
-```
-## Recomendación práctica para la estructura actual
-
-Esquema típico de configuración:
-
-- **Editor Startup Map** -> `TestMap`
-- **Game Default Map**   -> `Lvl_Menu`
-- **Default GameMode**   -> `GM_Menu`
-- **Menu Map Override**  -> `GM_Menu`
-- **Gameplay Maps**      -> `GM_Gameplay` (vía Override o Prefix)
-
-Esta estructura asegura una clara separación entre menú, gameplay y lógica de servidor, además de simplificar la escalabilidad del proyecto.
-
-
-
-
+</details> 
 
 * * * * * * * * * * * * * * * * * * 
 * * * * * * * * * * * * * * * * * * 
+
 
 
 <h2 align="center">
-  <a href="#-contenido">⬆️ Arriba</a> 
+  <a href="#-índice">⬆️ Subir arriba</a> 
 </h2>
 
-# Create Session 
-
-<h1 align="center"> 
-Create Session con configuración previa
-</h1>
-
-<details> 
-    <summary> ⚙️ Descripción expandida </summary>
-
-```
-ServerName
-```
-
-```
-ServerMap
-```
-
-```
-GameMode
-```
-
-<div align="center">
-  <img style="width: 50%; height: auto;" alt="CreateSession" src=".Tutorial\Article_2\CreateSession.png"/>
-</div>
-
-</details> 
-
-* * * * * * * * * * * * * * * * * * 
-* * * * * * * * * * * * * * * * * * 
-
-# Find Session
-
-<h1 align="center"> 
-Find Session con configuración previa
-</h1>
-
-<details> 
-    <summary> ⚙️ Descripción expandida </summary>
-
-```
-ServerName
-```
-
-```
-ServerMap
-```
-
-```
-GameMode
-```
-
-<div align="center">
-  <img style="width: 50%; height: auto;" alt="FindSession" src=".Tutorial\Article_2\FindSession.png"/>
-</div>
-
-</details> 
-
-* * * * * * * * * * * * * * * * * * 
-* * * * * * * * * * * * * * * * * * 
-
-# PlayerName PlayerNickname
-
-<h1 align="center"> 
-PlayerName | PlayerNickname
-</h1>
-
-<details> 
-    <summary> ⚙️ Descripción expandida </summary>
-
-```sh
-HOSTING MATCH
-```
-
-```sh
-CLIENT
-```
-
-```sh
-SOLO PLAY
-```
-
-<div align="center">
-  <img style="width: 50%; height: auto;" alt="PlayerName PlayerNickname" src=".Tutorial\Article_2\PlayerNamePlayerNickname.png"/>
-</div>
-
-</details>
-
-
-* * * * * * * * * * * * * * * * * * 
-* * * * * * * * * * * * * * * * * * 
-
-# Comprobaciones
-
-<h1 align="center"> 
-Is Server -> Is Standalone -> Set Text
-</h1>
-
-<details> 
-    <summary> ⚙️ Descripción expandida </summary>
-
-```sh
-HOSTING MATCH
-```
-
-```sh
-CLIENT
-```
-
-```sh
-SOLO PLAY
-```
-
-<div align="center">
-  <img style="width: 50%; height: auto;" alt="IsServer-IsStandalone-SetText" src=".Tutorial\Article_3\IsServer-IsStandalone-SetText.png"/>
-</div>
-
-</details>
-
-
-<h1 align="center"> 
-Has Online Subsystem qué subsistema está activo
-</h1>
-
-<details> 
-    <summary> ⚙️ Descripción expandida </summary>
-
-```sh
-Steam
-```
-
-```sh
-EOS
-```
-
-```sh
-NULL
-```
-
-<div align="center">
-  <img style="width: 50%; height: auto;" alt="HasOnlineSubsystem" src=".Tutorial\Article_3\HasOnlineSubsystem.png"/>
-</div>
-
-</details> 
-
-* * * * * * * * * * * * * * * * * * 
-* * * * * * * * * * * * * * * * * * 
-
-
-
-
-
-
-
-
-
-
-
-<h1 align="center"> 📜 Licencia </h1>
-<p align="center">
-  <strong> Este proyecto se encuentra bajo la </strong> 
-  <a href="/LICENSE">Apache License</a> 
-</p>
-
----
-
-<h2 align="center"> 
-Documentación - revísela 
-</h2>
-
-<p align="center">
-  <strong>-------></strong>
-  <a href="/README.md">Русский</a> |
-  <a href="/docs/README.en.md">Inglés</a> |
-  <a href="/docs/README.es.md">Español</a> |
-  <a href="/docs/README.zh.md">Chino</a> |
-  <strong><-------</strong>
-</p>
-
-
-<p align="center">
-  <strong>-------></strong>
-  <a href="/README.md">Русский</a> |
-  <a href="/docs/README.en.md">Inglés</a> |
-  <a href="/docs/README.es.md">Español</a> |
-  <a href="/docs/README.zh.md">Chino</a> |
-  <strong><-------</strong>
-</p>
