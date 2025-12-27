@@ -32,11 +32,11 @@
 
 
 <h1 align="center"> 
-Useful Information on Developing a Project in Unreal Engine 5 Using the AdvancedSessions-Steam Plugin
+Useful Information on Developing an Unreal Engine 5 Project Using the AdvancedSessions-Steam Plugin
 </h1>
 
 <h2 align="center">
-> 💡 This material is intended for advanced users.
+> 💡 This material is aimed at experienced users.
 </h2>
 
 
@@ -50,33 +50,33 @@ Useful Information on Developing a Project in Unreal Engine 5 Using the Advanced
 </h2>
 
 <p align="center">
-  The author assumes no responsibility for any potential consequences of using this project.<br>
+  The author will not be held liable for any consequences resulting from the use of this project.<br>
   Use at your own risk.
 </p>
 
 <details align="center"> 
-    <summary>⚠️ Full Text ⚠️</summary>
+    <summary>⚠️Full Text⚠️</summary>
     
 Use the materials of this repository at your own risk.
 
-1. By using the materials of this repository, you automatically agree to the terms of the license agreement associated with it.
+1. By using the materials from this repository, you automatically agree to the associated terms and conditions of the license agreement.
 
-2. The author provides no warranties, express or implied, regarding the accuracy, completeness, or fitness of these materials for any specific purposes. 
+2. The author makes no guarantees, either express or implied, regarding the accuracy, completeness, or suitability of these materials for any specific purpose. 
    
-3. The author is not responsible for any damages, including but not limited to direct, indirect, incidental, consequential, or special damages arising from the use or inability to use these materials or the accompanying documentation, even if the possibility of such damages has been previously reported.
+3. The author is not liable for any damages, including but not limited to direct, indirect, incidental, consequential, or special damages arising from the use or inability to use the materials from this repository or the accompanying documentation, even if the possibility of such damages has been previously reported.
 
-4. By using these materials, you acknowledge and accept all risks associated with their application. Furthermore, you agree that the author cannot be held liable for any issues or consequences resulting from their use.
+4. By using these materials from this repository, you acknowledge and accept all risks associated with their application. Additionally, you agree that the author is not accountable for any issues or outcomes resulting from their use.
 
 </details> 
 
 ---
 
 <h3 align="center"> 
-💖 Support the project 
+💖 Support the Project 
 </h3>
 
 <p align="center"> 
-If this project proved useful to you, feel free to rate it by leaving a star.:star2: 
+If this project has been helpful to you, you can rate it by giving a star.:star2: 
 </p>
 
 <p align="center">
@@ -91,7 +91,7 @@ If this project proved useful to you, feel free to rate it by leaving a star.:st
 
 
 <h4 align="center"> 
-Donations are warmly welcomed, no matter how small, and many thanks in advance. 😌 
+Donations are warmly welcomed, no matter how small, and thank you very much. 😌 
 </h1>
 
 <div align="center">
@@ -119,7 +119,7 @@ Donations are warmly welcomed, no matter how small, and many thanks in advance. 
 
 
 
-## 📚 Contents
+## 📚 Table of Contents
 
 - [Introduction](#-introduction)
 
@@ -136,7 +136,7 @@ Donations are warmly welcomed, no matter how small, and many thanks in advance. 
 
 
 <h2 align="center">
-  <a href="#-contents"> ⬆️ To Top </a> 
+  <a href="#-table-of-contents"> ⬆️ Back to Top </a> 
 </h2>
 
 <h1 align="center"> 
@@ -157,18 +157,18 @@ Technical Requirements
 
 
 
-## 📊 Disabling Plugins
+## 📊 Plugin Deactivation
 
 <details> 
     <summary>⚙️ Expand Description</summary>
 
-- **SteamSockets:** The SteamSockets plugin driver is required for Steam to work, but within the scope of Advanced Sessions Plugin, it needs to be disabled.
+- **SteamSockets:** The SteamSockets plugin driver is required for Steam to work but must be deactivated under the Advanced Sessions Plugin framework.
 
 </details> 
 
 
 
-## 📊 Functions || Features
+## 📊 Features || Specializations
 
 <details> 
     <summary>⚙️ Expand Description</summary>
@@ -179,7 +179,7 @@ Technical Requirements
 
 
 <h2 align="center">
-  <a href="#-contents">⬆️ To Top</a> 
+  <a href="#-table-of-contents">⬆️ Back to Top</a> 
 </h2>
 
 ###### # Project - Maps & Modes
@@ -194,16 +194,16 @@ Project - Maps & Modes
 
 ## Purpose of the Section
 
-The **Project - Maps & Modes** section defines key entry points into the game's flow and project architecture. It configures:
+The **Project - Maps & Modes** section defines the key entry points for the game's flow and the project's architecture. It configures:
 
 ---
 
 - which `GameMode` is used by default;
-- which maps (levels) are loaded at the start of the editor, game, or server;
+- which maps load when the editor, game, and server start;
 - which base classes are applied (`Pawn`, `Controller`, `HUD`, etc.);
-- how to automatically override the `GameMode` depending on the map or its prefix.
+- how to automatically replace `GameMode` depending on the map or its prefix.
 
-Essentially, this is the **entry point into the architecture of the game flow**.
+Essentially, this is the **entry point into the game's flow architecture**.
 
 * * * * * * * * * * * * * * * * * * 
 * * * * * * * * * * * * * * * * * * 
@@ -211,7 +211,7 @@ Essentially, this is the **entry point into the architecture of the game flow**.
 
 
 <h2 align="center">
-  <a href="#-contents">⬆️ To Top</a> 
+  <a href="#-table-of-contents">⬆️ Back to Top</a> 
 </h2>
 
 ###### # Default Modes
@@ -227,24 +227,24 @@ Default Modes
 ## Default GameMode
 
 <details>
-    <summary> ⚙️ Expand Description </summary>
+    <summary align="center"> ⚙️ Expand Description </summary>
 
-**Default GameMode** - is the `GameMode` to be used:
+**Default GameMode** - The `GameMode` that will be used:
 
-- if the level does not override the `GameMode`;
-- if the `GameMode` is not specified via URL parameters;
-- if prefixes or aliases did not work.
+- if the map does not override the `GameMode`;
+- if the `GameMode` is not specified through URL parameters;
+- if prefixes or aliases are not triggered.
 
-#### Typical Use
+#### Typical Uses
 
 - `GM_Menu` - main menu
-- `GM_Gameplay` - main gameplay
+- `GM_Gameplay` - primary game
 - `GM_Lobby` - multiplayer lobby
 
 #### Important
 
-- `GameMode` exists **only on the server** (or in single player, acting as server authority).
-- Clients receive data through `GameState`.
+- `GameMode` exists **only on the server** (or in singleplayer as server-authority).
+- Clients receive data through the `GameState`.
 
 </details> 
 
@@ -254,7 +254,7 @@ Default Modes
 
 
 <h2 align="center">
-  <a href="#-contents">⬆️ To Top</a> 
+  <a href="#-table-of-contents">⬆️ Back to Top</a> 
 </h2>
 
 ###### # Selected GameMode
@@ -267,137 +267,42 @@ Selected GameMode
   <img style="width: 90%; height: auto;" alt="DefaultModes -Selected GameMode" src="../media/Tutorial/Article_1/DefaultModes -Selected GameMode.png"/>
 </div>
 
-**Selected GameMode** - This block determines the set of classes for the selected `GameMode` (in this case, `GM_Menu`).
+**Selected GameMode** - This section defines the set of classes for the selected `GameMode` (in this case, `GM_Menu`).
 
 <details> 
-    <summary> ⚙️ Expand Description </summary>
----
+    <summary  align="center"> ⚙️ Expand Description </summary>
+...
 
 ### Default Pawn Class
 
-Determines which `Pawn` will be automatically spawned for the player.
+Defines which `Pawn` will be automatically spawned for the player.
 
 Examples:
 
-- `Pawn` - placeholder for a menu
-- `Character` - for a full-fledged character
-- `SpectatorPawn` - for non-controlling players
+- `Pawn` - placeholder for the menu
+- `Character` - for a fully featured character
+- `SpectatorPawn` - if the player should not control a body
 
 For menus:
 
-- often an empty `Pawn` or minimal logic without controls is used.
+- often use an empty `Pawn` or minimal logic with no input.
 
 ---
 
 ### HUD Class
 
-`HUD` class (deprecated, yet still supported).
+`HUD` class (deprecated but still supported).
 
-Used if:
+Use it if:
 
-- UI is drawn via `DrawHUD`;
-- traditional HUD logic is applied.
+- UI drawing happens through `DrawHUD`;
+- older HUD logic applies.
 
 Modern practice:
 
-- `HUD` is empty;
-- UI is created via **UMG** in `PlayerController`.
+- keep `HUD` empty;
+- create UI using **UMG** in `PlayerController`.
 
-Using a `HUD_Menu` in a menu is acceptable.
+For menus, using `HUD_Menu` is acceptable.
 
----
-
-### Player Controller Class
-
-One of the key architecture classes.
-
-Responsible for:
-
-- input (`Input`);
-- UI creation;
-- camera management;
-- input mode switching (UI / Game).
-
-Examples:
-
-**In the menu**
-- `PC_Menu`
-- `Show Mouse Cursor` enabled
-- `Set Input Mode UI Only`
-
-**In the game**
-- `PC_Gameplay`
-- `Game Only` or `Game and UI`
-
----
-
-### Game State Class
-
-`GameState` exists **on both the server and clients**.
-
-Used for:
-
-- timers;
-- current match phase;
-- global game state.
-
-Example:
-
-- `Server_GameState`
-
-Even in single-player, it's recommended to store data in `GameState` rather than `GameMode`.
-
----
-
-### Player State Class
-
-`PlayerState` exists for each player.
-
-Stores:
-
-- score;
-- name;
-- team;
-- perks;
-- statistics.
-
-Usage:
-
-- in multiplayer - mandatory;
-- in single-player - recommended.
-
----
-
-### Spectator Class
-
-`Pawn` used:
-
-- upon death;
-- for observing;
-- when no active `Pawn` is present.
-
-By default, `SpectatorPawn` is a suitable choice.
-
-</details> 
-
-* * * * * * * * * * * * * * * * * * 
-* * * * * * * * * * * * * * * * * * 
-
-
-
-<h2 align="center">
-  <a href="#-contents">⬆️ To Top</a> 
-</h2>
-
-###### # Advanced (GameMode)
-
-<h1 align="center"> 
-Advanced (GameMode)
-</h1>
-
-<div align="center">
-  <img style="width: 90%; height: auto;" alt="DefaultModes -Selected GameMode-Advanced" src="../media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced.png"/>
-</div>
-
-<details> 
-    <summary> ⚙️ Expand Description </summary>
+...
