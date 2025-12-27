@@ -178,10 +178,18 @@
 </details>
 
 
-# Project - Maps & Modes
+<h2 align="center">
+  <a href="#-содержание">⬆️ Наверх</a> 
+</h2>
+
+###### # Project - Maps & Modes
+
+<h1 align="center"> 
+Project - Maps & Modes
+</h1>
 
 <div align="center">
-  <img style="width: 90%; height: auto;" alt="Project-Maps&Modes" src="./media/Tutorial/Article_1/Project-Maps&Modes.png"/>
+  <img style="width: 70%; height: auto;" alt="Project-Maps&Modes" src="./media/Tutorial/Article_1/Project-Maps&Modes.png"/>
 </div>
 
 ## Назначение раздела
@@ -197,23 +205,36 @@
 
 Фактически это **точка входа в архитектуру игрового флоу**.
 
----
+* * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * 
 
-# Default Modes
+
+
+
+<h2 align="center">
+  <a href="#-содержание">⬆️ Наверх</a> 
+</h2>
+
+###### # Default Modes
+
+<h1 align="center"> 
+Default Modes
+</h1>
 
 <div align="center">
   <img style="width: 90%; height: auto;" alt="DefaultModes - Default GameMode" src="./media/Tutorial/Article_1/DefaultModes -Default GameMode.png"/>
 </div>
 
-
 ## Default GameMode
+
+<details>
+    <summary> ⚙️ Развернуть описание </summary>
 
 **Default GameMode** - это `GameMode`, который будет использоваться:
 
-- если карта не переопределяет `GameMode`;
+- если кауровень не переопределяет `GameMode`;
 - если `GameMode` не указан через URL-параметры;
 - если не сработали префиксы или алиасы.
-
 
 #### Типичное применение
 
@@ -226,16 +247,31 @@
 - `GameMode` существует **только на сервере** ( или в singleplayer, как server-authority ).
 - Клиенты получают данные через `GameState`.
 
----
+</details> 
 
-## Selected GameMode
+* * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * 
+
+
+
+<h2 align="center">
+  <a href="#-содержание">⬆️ Наверх</a> 
+</h2>
+
+###### # Selected GameMode
+
+<h1 align="center"> 
+Selected GameMode
+</h1>
 
 <div align="center">
-  <img style="width: 90%; height: auto;" alt="DefaultModes - Default GameMode" src="./media/Tutorial/Article_1/DefaultModes -Selected GameMode.png"/>
+  <img style="width: 90%; height: auto;" alt="DefaultModes -Selected GameMode" src="./media/Tutorial/Article_1/DefaultModes -Selected GameMode.png"/>
 </div>
 
-Этот блок определяет набор классов для выбранного `GameMode` (в данном случае `GM_Menu`).
+**Selected GameMode** - Это блок определяет набор классов для выбранного `GameMode` (в данном случае `GM_Menu`).
 
+<details> 
+    <summary> ⚙️ Развернуть описание </summary>
 ---
 
 ### Default Pawn Class
@@ -343,17 +379,33 @@
 
 По умолчанию `SpectatorPawn` - корректный выбор.
 
----
+</details> 
 
-## Advanced (GameMode)
+* * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * 
+
+
+
+<h2 align="center">
+  <a href="#-содержание">⬆️ Наверх</a> 
+</h2>
+
+###### # Advanced (GameMode)
+
+<h1 align="center"> 
+Advanced (GameMode)
+</h1>
 
 <div align="center">
-  <img style="width: 90%; height: auto;" alt="DefaultModes - Default GameMode" src="./media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced.png"/>
+  <img style="width: 90%; height: auto;" alt="DefaultModes -Selected GameMode-Advanced" src="./media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced.png"/>
 </div>
+
+<details> 
+    <summary> ⚙️ Развернуть описание </summary>
 
 ### Global Default Server Game Mode
 
-Используется **только для dedicated server**.
+- Используется **только для dedicated server**.
 
 Если задан:
 
@@ -370,12 +422,13 @@
 ### Game Mode Map Prefixes
 
 <div align="center">
-  <img style="width: 80%; height: auto;" alt="DefaultModes - Default GameMode" src="./media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced-Prefixes.png"/>
+  <img style="width: 80%; height: auto;" alt="DefaultModes -Selected GameMode-Advanced-Prefixes" src="./media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced-Prefixes.png"/>
 </div>
 
 <div align="center">
-  <img style="width: 40%; height: auto;" alt="DefaultModes - Default GameMode" src="./media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced-PrefixesLevel.png"/>
+  <img style="width: 40%; height: auto;" alt="DefaultModes -Selected GameMode-Advanced-PrefixesLevel" src="./media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced-PrefixesLevel.png"/>
 </div>
+
 
 Позволяет автоматически назначить `GameMode` по префиксу карты.
 
@@ -408,7 +461,7 @@
 ### Game Mode Class Aliases
 
 <div align="center">
-  <img style="width: 90%; height: auto;" alt="DefaultModes - Default GameMode" src="./media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced-Aliases.png"/>
+  <img style="width: 90%; height: auto;" alt="DefaultModes -Selected GameMode-Advanced-Aliases" src="./media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced-Aliases.png"/>
 </div>
 
 Позволяет использовать короткие алиасы для `GameMode`. Когда карты тажа, а правила игры специфичны.
@@ -499,18 +552,34 @@ UEGameServer.exe Lvl_Map?game=TDM?listen
 | Prefixes | Массовые карты |
 | Aliases | CLI, сервер, автоматизация |
 
----
+</details>
+
+* * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * 
 
 
 
 
 
 
-## Default Maps
+<h2 align="center">
+  <a href="#-содержание">⬆️ Наверх</a> 
+</h2>
+
+###### # Default Maps
+
+<h1 align="center"> 
+Default Maps
+</h1>
 
 <div align="center">
-  <img style="width: 90%; height: auto;" alt="DefaultModes - Default GameMode" src="./media/Tutorial/Article_1/Default Maps.png"/>
+  <img style="width: 90%; height: auto;" alt="Default Maps" src="./media/Tutorial/Article_1/Default Maps.png"/>
 </div>
+
+
+<details> 
+    <summary> ⚙️ Развернуть описание </summary>
+
 
 ### Editor Startup Map
 
@@ -551,13 +620,31 @@ UEGameServer.exe Lvl_Map?game=TDM?listen
 - главное меню;
 - либо стартовый уровень.
 
----
 
-## Advanced (Maps)
+</details> 
+
+* * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * 
+
+
+
+
+<h2 align="center">
+  <a href="#-содержание">⬆️ Наверх</a> 
+</h2>
+
+###### # Advanced (Maps)
+
+<h1 align="center"> 
+Advanced (Maps)
+</h1>
 
 <div align="center">
-  <img style="width: 90%; height: auto;" alt="DefaultModes - Default GameMode" src="./media/Tutorial/Article_1/Default Maps - Advanced.png"/>
+  <img style="width: 90%; height: auto;" alt="Default Maps - Advanced" src="./media/Tutorial/Article_1/Default Maps - Advanced.png"/>
 </div>
+
+<details> 
+    <summary> ⚙️ Развернуть описание </summary>
 
 ### Local Map Options
 
@@ -631,6 +718,7 @@ GlobalDefaultGameMode=/Game/GameModes/GM_Menu.GM_Menu_C
 
 Данная схема обеспечивает чистое разделение меню, геймплея и серверной логики, а также упрощает масштабирование проекта.
 
+</details> 
 
 
 
@@ -643,12 +731,16 @@ GlobalDefaultGameMode=/Game/GameModes/GM_Menu.GM_Menu_C
   <a href="#-содержание">⬆️ Наверх</a> 
 </h2>
 
-# Create Session 
+###### # Create Session 
 
 <h1 align="center"> 
 Create Session с предварительной настройкой
 </h1>
 
+<div align="center">
+  <img style="width: 70%; height: auto;" alt="Default Maps - Advanced" src="./media/Tutorial/Article_2/CreateSession.png"/>
+</div>
+
 <details> 
     <summary> ⚙️ Развернуть описание </summary>
 
@@ -664,21 +756,21 @@ ServerMap
 GameMode
 ```
 
-<div align="center">
-  <img style="width: 50%; height: auto;" alt="CreateSession" src=".Tutorial\Article_2\CreateSession.png"/>
-</div>
-
 </details> 
 
 * * * * * * * * * * * * * * * * * * 
 * * * * * * * * * * * * * * * * * * 
 
-# Find Session
+###### # Find Session
 
 <h1 align="center"> 
 Find Session с предварительной настройкой
 </h1>
 
+<div align="center">
+  <img style="width: 70%; height: auto;" alt="Default Maps - Advanced" src="./media/Tutorial/Article_2/FindSession.png"/>
+</div>
+
 <details> 
     <summary> ⚙️ Развернуть описание </summary>
 
@@ -694,21 +786,21 @@ ServerMap
 GameMode
 ```
 
-<div align="center">
-  <img style="width: 50%; height: auto;" alt="FindSession" src=".Tutorial\Article_2\FindSession.png"/>
-</div>
-
 </details> 
 
 * * * * * * * * * * * * * * * * * * 
 * * * * * * * * * * * * * * * * * * 
 
-# PlayerName PlayerNickname
+###### # PlayerName PlayerNickname
 
 <h1 align="center"> 
 PlayerName | PlayerNickname
 </h1>
 
+<div align="center">
+  <img style="width: 50%; height: auto;" alt="Default Maps - Advanced" src="./media/Tutorial/Article_2/PlayerNamePlayerNickname.png"/>
+</div>
+
 <details> 
     <summary> ⚙️ Развернуть описание </summary>
 
@@ -724,22 +816,25 @@ CLIENT
 SOLO PLAY
 ```
 
-<div align="center">
-  <img style="width: 50%; height: auto;" alt="PlayerName PlayerNickname" src=".Tutorial\Article_2\PlayerNamePlayerNickname.png"/>
-</div>
-
 </details>
 
 
 * * * * * * * * * * * * * * * * * * 
 * * * * * * * * * * * * * * * * * * 
 
-# Проверки
+###### # Проверки
+
+
+###### # Is Server -> Is Standalone -> Set Text
 
 <h1 align="center"> 
 Is Server -> Is Standalone -> Set Text
 </h1>
 
+<div align="center">
+  <img style="width: 50%; height: auto;" alt="Default Maps - Advanced" src="./media/Tutorial/Article_2/IsServer-IsStandalone-SetText.png"/>
+</div>
+
 <details> 
     <summary> ⚙️ Развернуть описание </summary>
 
@@ -755,16 +850,19 @@ CLIENT
 SOLO PLAY
 ```
 
-<div align="center">
-  <img style="width: 50%; height: auto;" alt="IsServer-IsStandalone-SetText" src=".Tutorial\Article_3\IsServer-IsStandalone-SetText.png"/>
-</div>
-
 </details>
 
+---
+
+###### # Has Online Subsystem
 
 <h1 align="center"> 
 Has Online Subsystem какая сабсистема активна
 </h1>
+
+<div align="center">
+  <img style="width: 50%; height: auto;" alt="Default Maps - Advanced" src="./media/Tutorial/Article_2/HasOnlineSubsystem.png"/>
+</div>
 
 <details> 
     <summary> ⚙️ Развернуть описание </summary>
@@ -786,6 +884,9 @@ NULL
 </div>
 
 </details> 
+
+
+
 
 * * * * * * * * * * * * * * * * * * 
 * * * * * * * * * * * * * * * * * * 
