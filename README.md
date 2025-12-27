@@ -189,7 +189,7 @@ Project - Maps & Modes
 </h1>
 
 <div align="center">
-  <img style="width: 70%; height: auto;" alt="Project-Maps&Modes" src="./media/Tutorial/Article_1/Project-Maps&Modes.png"/>
+  <img style="width: 90%; height: auto;" alt="Project-Maps&Modes" src="./media/Tutorial/Article_1/Project-Maps&Modes.png"/>
 </div>
 
 ## Назначение раздела
@@ -738,7 +738,7 @@ Create Session с предварительной настройкой
 </h1>
 
 <div align="center">
-  <img style="width: 70%; height: auto;" alt="Default Maps - Advanced" src="./media/Tutorial/Article_2/CreateSession.png"/>
+  <img style="width: 90%; height: auto;" alt="CreateSession" src="./media/Tutorial/Article_2/CreateSession.png"/>
 </div>
 
 <details> 
@@ -768,7 +768,7 @@ Find Session с предварительной настройкой
 </h1>
 
 <div align="center">
-  <img style="width: 70%; height: auto;" alt="Default Maps - Advanced" src="./media/Tutorial/Article_2/FindSession.png"/>
+  <img style="width: 90%; height: auto;" alt="FindSession" src="./media/Tutorial/Article_2/FindSession.png"/>
 </div>
 
 <details> 
@@ -798,7 +798,7 @@ PlayerName | PlayerNickname
 </h1>
 
 <div align="center">
-  <img style="width: 50%; height: auto;" alt="Default Maps - Advanced" src="./media/Tutorial/Article_2/PlayerNamePlayerNickname.png"/>
+  <img style="width: 70%; height: auto;" alt="PlayerNamePlayerNickname" src="./media/Tutorial/Article_2/PlayerNamePlayerNickname.png"/>
 </div>
 
 <details> 
@@ -832,7 +832,7 @@ Is Server -> Is Standalone -> Set Text
 </h1>
 
 <div align="center">
-  <img style="width: 50%; height: auto;" alt="Default Maps - Advanced" src="./media/Tutorial/Article_2/IsServer-IsStandalone-SetText.png"/>
+  <img style="width: 70%; height: auto;" alt="IsServer-IsStandalone-SetText" src="./media/Tutorial/Article_2/IsServer-IsStandalone-SetText.png"/>
 </div>
 
 <details> 
@@ -861,7 +861,7 @@ Has Online Subsystem какая сабсистема активна
 </h1>
 
 <div align="center">
-  <img style="width: 50%; height: auto;" alt="Default Maps - Advanced" src="./media/Tutorial/Article_2/HasOnlineSubsystem.png"/>
+  <img style="width: 70%; height: auto;" alt="HasOnlineSubsystem" src="./media/Tutorial/Article_2/HasOnlineSubsystem.png"/>
 </div>
 
 <details> 
@@ -878,10 +878,6 @@ EOS
 ```sh
 NULL
 ```
-
-<div align="center">
-  <img style="width: 50%; height: auto;" alt="HasOnlineSubsystem" src=".Tutorial\Article_3\HasOnlineSubsystem.png"/>
-</div>
 
 </details> 
 
