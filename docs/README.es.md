@@ -12,7 +12,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../media/logo-dark.png">
-    <img alt="Logo del Proyecto" src="../media/logo-light.png" width="512" height="auto">
+    <img alt="Project Logo" src="../media/logo-light.png" width="512" height="auto">
   </picture>
 </p>
 
@@ -32,11 +32,11 @@
 
 
 <h1 align="center"> 
-Información útil sobre el desarrollo de proyectos en Unreal Engine 5 utilizando el plugin AdvancedSessions-Steam
+Información útil sobre el desarrollo de un proyecto en Unreal Engine 5 utilizando el plugin AdvancedSessions-Steam
 </h1>
 
 <h2 align="center">
-> 💡 El material está orientado a usuarios con experiencia.
+> 💡 El material está orientado a usuarios preparados.
 </h2>
 
 
@@ -51,21 +51,21 @@ Información útil sobre el desarrollo de proyectos en Unreal Engine 5 utilizand
 
 <p align="center">
   El autor no se hace responsable de las posibles consecuencias del uso de este proyecto.<br>
-  Úselo bajo su propio riesgo.
+  Use bajo su propia responsabilidad.
 </p>
 
 <details align="center"> 
-    <summary>⚠️Texto completo⚠️</summary>
+    <summary>⚠️texto completo⚠️</summary>
     
-Utilice los materiales de este repositorio bajo su propio riesgo.
+Use el material de este repositorio bajo su propio riesgo.
 
-1. Al utilizar los materiales de este repositorio, usted acepta automáticamente los términos del acuerdo de licencia relacionados con él.
+1. Al usar el material de este repositorio, usted acepta automáticamente los términos del acuerdo de licencia asociados con el mismo.
 
-2. El autor no ofrece ninguna garantía, expresa o implícita, en cuanto a la precisión, la integridad o la idoneidad de estos materiales para fines específicos.
+2. El autor no garantiza de ninguna manera, ya sea explícita o implícitamente, la exactitud, integridad o idoneidad de estos materiales para fines específicos.
    
-3. El autor no se hace responsable de ningún daño, incluyendo, entre otros, daños directos, indirectos, incidentales, consecuentes o especiales que surjan del uso o la imposibilidad de uso del material de este repositorio o de la documentación que lo acompaña, incluso si se advirtió previamente sobre la posibilidad de dichos daños.
+3. El autor no se hace responsable de ninguna pérdida, incluidos, entre otros, daños directos, indirectos, incidentales, consecuenciales o especiales, que resulten del uso o la imposibilidad de usar los materiales de este repositorio o la documentación asociada con el mismo, incluso si se le había informado previamente de la posibilidad de dichos daños.
 
-4. Al utilizar este material del repositorio, usted acepta y asume todos los riesgos asociados con su aplicación. Además, acepta que el autor no podrá ser considerado responsable de posibles problemas o consecuencias resultantes de su uso.
+4. Al usar el material de este repositorio, usted reconoce y asume todos los riesgos asociados con su aplicación. Además, acepta que el autor no puede ser responsable de ningún problema o consecuencia resultante de su uso.
 
 </details> 
 
@@ -76,22 +76,22 @@ Utilice los materiales de este repositorio bajo su propio riesgo.
 </h3>
 
 <p align="center"> 
-Si este proyecto le ha resultado útil, puede mostrar su agradecimiento dándole una estrella.:star2: 
+Si este proyecto te fue útil, puedes calificarlo con una estrella.:star2: 
 </p>
 
 <p align="center">
   <a href="https://pay.cloudtips.ru/p/7249ba98" target="_blank">
-    <img src="../media/buymeacoffe.png" alt="Invítame un café">
+    <img src="../media/buymeacoffe.png" alt="Buy Me a Coffee">
   </a>
   <a href="https://pay.cloudtips.ru/p/7249ba98" target="_blank">
-    <img src="../media/buymeacoffe.png" alt="Invítame un café">
+    <img src="../media/buymeacoffe.png" alt="Buy Me a Coffee">
   </a>
 </p>
 
 
 
 <h4 align="center"> 
-Las donaciones son muy bienvenidas, sean pequeñas o grandes. Muchas gracias. 😌 
+Las donaciones son muy bien recibidas, no importa lo pequeñas que sean, y muchas gracias. 😌 
 </h1>
 
 <div align="center">
@@ -109,7 +109,7 @@ Las donaciones son muy bienvenidas, sean pequeñas o grandes. Muchas gracias. �
 ---
 
 <p align="center">
-  <sub> Gracias por su interés en el proyecto y por su apoyo 💙 </sub>
+  <sub> Gracias por tu atención al proyecto y por el apoyo 💙 </sub>
 </p>
 
 ---
@@ -162,7 +162,7 @@ Requisitos técnicos
 <details> 
     <summary>⚙️ Desplegar descripción</summary>
 
-- **SteamSockets:** El controlador del plugin SteamSockets es necesario para el funcionamiento de Steam, pero con el plugin Advanced Sessions Plugin debe estar desactivado.
+- **SteamSockets:** El controlador del plugin SteamSockets es necesario para que Steam funcione, pero dentro del marco de Advanced Sessions Plugin debe desactivarse.
 
 </details> 
 
@@ -194,16 +194,16 @@ Project - Maps & Modes
 
 ## Propósito de la sección
 
-La sección **Project - Maps & Modes** define puntos clave de entrada en el flujo de juego y la arquitectura del proyecto. Aquí se configura:
+La sección **Project - Maps & Modes** define los puntos clave de entrada en el flujo de juego y la arquitectura del proyecto. En esta sección se configura:
 
 ---
 
 - qué `GameMode` se usa por defecto;
-- qué mapas (maps) se cargan al iniciar el editor, el juego y el servidor;
+- qué maps (mapas) se cargan al inicio del editor, juego y servidor;
 - qué clases base se aplican (`Pawn`, `Controller`, `HUD`, etc.);
 - cómo cambiar automáticamente el `GameMode` dependiendo del mapa o su prefijo.
 
-De hecho, este es el **punto de entrada en la arquitectura del flujo del juego**.
+De hecho, esta es la **puerta de entrada a la arquitectura del flujo del juego**.
 
 * * * * * * * * * * * * * * * * * * 
 * * * * * * * * * * * * * * * * * * 
@@ -228,24 +228,24 @@ Default Modes
 ## Default GameMode
 
 <details>
-    <summary> ⚙️ Desplegar descripción </summary>
+    <summary align="center"> ⚙️ Desplegar descripción </summary>
 
-**Default GameMode** - Es el `GameMode` que se utilizará:
+**Default GameMode** - Es el `GameMode` que será usado:
 
-- si el nivel no sobreescribe el `GameMode`;
-- si el `GameMode` no se especifica a través de parámetros de URL;
-- si no funcionan los prefijos o alias.
+- si el nivel no sobrescribe `GameMode`;
+- si `GameMode` no ha sido indicado en los parámetros de URL;
+- si no aplican ni prefijos ni alias.
 
 #### Uso típico
 
-- `GM_Menu` - menú principal
-- `GM_Gameplay` - juego principal
-- `GM_Lobby` - lobby multijugador
+- `GM_Menu` - menú principal.
+- `GM_Gameplay` - el juego principal.
+- `GM_Lobby` - el lobby multijugador.
 
 #### Importante
 
-- El `GameMode` solo existe **en el servidor** (o en un jugador único como server-authority).
-- Los clientes reciben datos a través de `GameState`.
+- `GameMode` existe **solo en el servidor** (o en un solo jugador, como servidor autoritativo).
+- Los clientes obtienen datos a través del `GameState`.
 
 </details> 
 
@@ -268,43 +268,43 @@ Selected GameMode
   <img style="width: 90%; height: auto;" alt="DefaultModes -Selected GameMode" src="../media/Tutorial/Article_1/DefaultModes -Selected GameMode.png"/>
 </div>
 
-**Selected GameMode** - Este bloque define las clases para el `GameMode` seleccionado (en este caso `GM_Menu`).
+**Selected GameMode** - Este bloque define el conjunto de clases para el `GameMode` seleccionado (en este caso, `GM_Menu`).
 
 <details> 
-    <summary> ⚙️ Desplegar descripción </summary>
+    <summary  align="center"> ⚙️ Desplegar descripción </summary>
 ---
 
 ### Default Pawn Class
 
-Define qué `Pawn` será generado automáticamente para el jugador.
+Determina qué `Pawn` será generado automáticamente para el jugador.
 
 Ejemplos:
 
-- `Pawn` - vacío para el menú
-- `Character` - si se necesita un personaje completo
-- `SpectatorPawn` - si el jugador no debe controlar un cuerpo
+- `Pawn` - mínimo para el menú.
+- `Character` - si se necesita un personaje completo.
+- `SpectatorPawn` - si el jugador no debe manejar un cuerpo.
 
-Para el menú:
+Para menús:
 
-- se suele usar un `Pawn` vacío o con lógica mínima sin control.
+- se usa usualmente un `Pawn` vacío o lógica mínima sin control.
 
 ---
 
 ### HUD Class
 
-Clase `HUD` (obsoleta, pero todavía compatible).
+Clase `HUD` (obsoleta, pero aún compatible).
 
-Se usa cuando:
+Usado si:
 
-- la UI se dibuja a través de `DrawHUD`;
-- se aplica la lógica antigua del HUD.
+- la IU se dibuja a través de `DrawHUD`;
+- se aplica la antigua lógica de HUD.
 
-Práctica moderna:
+Práctica contemporánea:
 
 - `HUD` vacío;
-- la UI se crea a través de **UMG** en `PlayerController`.
+- la interfaz de usuario se genera a través de **UMG** en `PlayerController`.
 
-Para el menú, el uso de `HUD_Menu` es aceptable.
+Para menús, el uso de `HUD_Menu` es aceptable.
 
 ---
 
@@ -314,10 +314,10 @@ Una de las clases clave de la arquitectura.
 
 Responsable de:
 
-- entrada (`Input`);
-- creación de la UI;
-- control de la cámara;
-- cambio de modos de entrada (UI / Game).
+- Entrada (`Input`);
+- Generación de la interfaz de usuario;
+- Control de la cámara;
+- Cambio de modos de entrada (UI / Game).
 
 Ejemplos:
 
@@ -334,19 +334,19 @@ Ejemplos:
 
 ### Game State Class
 
-`GameState` existe **en el servidor y en los clientes**.
+`GameState` existe **tanto en el servidor como en los clientes**.
 
-Se usa para:
+Se utiliza para:
 
 - temporizadores;
-- la fase actual del partido;
-- el estado global del juego.
+- fase actual de la partida;
+- estado global del juego.
 
 Ejemplo:
 
 - `Server_GameState`
 
-Incluso en un jugador único, se recomienda almacenar datos en `GameState` en lugar de en `GameMode`.
+Incluso en un solo jugador, se recomienda almacenar datos en `GameState` en lugar de en `GameMode`.
 
 ---
 
@@ -354,18 +354,18 @@ Incluso en un jugador único, se recomienda almacenar datos en `GameState` en lu
 
 `PlayerState` existe para cada jugador.
 
-Almacena:
+Contiene:
 
 - puntos;
 - nombre;
 - equipo;
-- habilidades;
+- perks;
 - estadísticas.
 
-Uso:
+Aplicación:
 
-- en multijugador - indispensable;
-- en un jugador único - recomendable.
+- en modo multijugador - obligatorio;
+- en modo de un solo jugador - recomendado.
 
 ---
 
@@ -373,11 +373,11 @@ Uso:
 
 `Pawn` que se usa:
 
-- en caso de muerte;
+- al morir;
 - al observar;
 - cuando no hay un `Pawn` activo.
 
-Por defecto, `SpectatorPawn` es una opción adecuada.
+Por defecto, `SpectatorPawn` es una elección adecuada.
 
 </details> 
 
@@ -401,21 +401,21 @@ Advanced (GameMode)
 </div>
 
 <details> 
-    <summary> ⚙️ Desplegar descripción </summary>
+    <summary  align="center"> ⚙️ Desplegar descripción </summary>
 
 ### Global Default Server Game Mode
 
-- Solo se usa **en servidores dedicados**.
+- Solo se utiliza para **dedicated server**.
 
 Si está configurado:
 
 - el servidor siempre usará este `GameMode`;
 - independientemente del mapa.
 
-Normalmente:
+Usualmente:
 
 - `None` - opción estándar;
-- se aplica en compilaciones para servidores.
+- se aplica en compilaciones del servidor.
 
 ---
 
@@ -430,7 +430,7 @@ Normalmente:
 </div>
 
 
-Permite asignar automáticamente `GameMode` según el prefijo del mapa.
+Permite asignar automáticamente `GameMode` por prefijo de mapa.
 
 Ejemplo:
 
@@ -443,7 +443,7 @@ Ejemplo:
 - una compilación;
 - diferentes modos sin configuración manual de mapas.
 
-Extremadamente útil en proyectos medianos y grandes.
+Sumamente útil en proyectos medianos y grandes.
 
 ### Configuración en DefaultEngine.ini
 
@@ -464,9 +464,9 @@ Extremadamente útil en proyectos medianos y grandes.
   <img style="width: 90%; height: auto;" alt="DefaultModes -Selected GameMode-Advanced-Aliases" src="../media/Tutorial/Article_1/DefaultModes -Selected GameMode-Advanced-Aliases.png"/>
 </div>
 
-Permite usar alias cortos para el `GameMode`. Útil cuando hay mapas similares pero reglas específicas para el juego.
+Permite usar alias cortos para `GameMode`. Cuando los mapas son iguales, pero las reglas del juego son específicas.
 
-Ejemplo clásico de PvP:
+Ejemplo clásico PvP:
 
 - `"DM"`   -> `GM_Deathmatch`
 - `"TDM"`  -> `GM_TeamDeathmatch`
@@ -475,7 +475,7 @@ Ejemplo clásico de PvP:
 - `"KOTH"` -> `GM_KingOfTheHill`
 - `"SD"`   -> `GM_SearchAndDestroy`
 
-Ejemplo clásico de PvE:
+Ejemplo clásico PvE:
 
 - `"COOP"`  -> `GM_Coop`
 - `"PVE"`   -> `GM_PvE`
@@ -483,13 +483,13 @@ Ejemplo clásico de PvE:
 - `"HORDE"` -> `GM_Horde`
 - `"WAVES"` -> `GM_Waves`
 
-Modos de lobby y de servicio:
+Lobbies y modos de servicio:
 
 - `"MENU"`  -> `GM_Menu`
 - `"LOBBY"` -> `GM_Lobby`
 - `"ENTRY"` -> `GM_Entry`
 
-Modo solitario:
+Modo para un solo jugador:
 
 - `"SP"`       -> `GM_Singleplayer`
 - `"STORY"`    -> `GM_Story`
@@ -507,8 +507,8 @@ Modo solitario:
 ```
 
 
-## Uso práctico
-### A través de la consola o línea de comandos
+## Aplicación práctica
+### A través de consola o línea de comandos
 
 ```ini
 open Lvl_Arena?game=DM
@@ -517,13 +517,13 @@ open Lvl_Arena?game=DM
 Unreal Engine busca `DM` en `Game Mode Class Aliases`, ignora el `Default GameMode` asignado y lo reemplaza por `GM_Deathmatch`,
 
 
-### Durante Server Startup
+### A través de Server Startup
 
 ```ini
 UEGameServer.exe Lvl_Map?game=TDM?listen
 ```
 
-### Muy práctico para:
+### Muy útil para:
 
 - servidores dedicados,
 - CI/CD,
@@ -531,32 +531,31 @@ UEGameServer.exe Lvl_Map?game=TDM?listen
 
 ---
 
-### Cuándo no se necesitan alias
+### Cuando los alias NO son necesarios
 
-Los alias no son imprescindibles si se utiliza:
+Los alias no son obligatorios si utilizas:
 
 - `Map Override` en World Settings,
 - `Game Mode Map Prefixes`,
-- valor fijo de `Default GameMode`.
+- `Default GameMode` estrictamente definido.
 
-> En proyectos pequeños para un jugador, a menudo no se utilizan alias.
+> En proyectos pequeños para un solo jugador, los alias a menudo no se utilizan.
 
 
 ### Esquema recomendado para un proyecto real
 
-Usar los tres mecanismos con distintos propósitos:
-|Mecanismo|Para qué sirve|
+Utilizar los tres mecanismos, pero según su propósito:
+|Mecanismo|Para qué|
 |:---------:|:---------|
-| Default GameMode | Respaldo seguro |
-| Map Override | Comportamiento explícito del mapa |
-| Prefixes | Para mapas de manera masiva |
+| Default GameMode | Fallback seguro |
+| Map Override | Comportamiento específico del mapa |
+| Prefixes | Mapas en masa |
 | Aliases | CLI, servidor, automatización |
 
 </details>
 
 * * * * * * * * * * * * * * * * * * 
 * * * * * * * * * * * * * * * * * * 
-
 
 
 
@@ -578,33 +577,33 @@ Default Maps
 
 
 <details> 
-    <summary> ⚙️ Desplegar descripción </summary>
+    <summary  align="center"> ⚙️ Desplegar descripción </summary>
 
 
 ### Editor Startup Map
 
 Mapa que:
 
-- se abre automáticamente al iniciar el editor.
+- Se abre automáticamente al iniciar el editor.
 
 Recomendación:
 
-- mapa liviano;
-- no la escena principal del juego;
-- frecuentemente de prueba o menú.
+- Un mapa ligero;
+- No una escena principal del juego;
+- A menudo se usa uno de prueba o el menú.
 
 ---
 
 ### Editor Template Map Overrides
 
-Se utiliza poco.
+Raramente utilizado.
 
 Propósito:
 
-- sobreescribir mapas de plantillas (template maps);
-- relevante para plantillas personalizadas.
+- Sobrescribir las plantillas de mapas predeterminadas (template maps);
+- Aplicable para plantillas personalizadas.
 
-En la mayoría de los proyectos no se usa.
+En la mayoría de los proyectos no se utiliza.
 
 ---
 
@@ -612,14 +611,13 @@ En la mayoría de los proyectos no se usa.
 
 Mapa que:
 
-- se carga al iniciar el juego;
-- se usa en el build empaquetado.
+- Se carga al iniciar el juego;
+- Se usa en la build empaquetada.
 
-Normalmente:
+Típicamente:
 
-- menú principal;
+- el menú principal;
 - o el nivel inicial.
-
 
 </details> 
 
@@ -644,11 +642,11 @@ Advanced (Maps)
 </div>
 
 <details> 
-    <summary> ⚙️ Desplegar descripción </summary>
+    <summary align="center"> ⚙️ Desplegar descripción </summary>
 
 ### Local Map Options
 
-Permite establecer parámetros de URL predeterminados.
+Permite introducir parámetros por defecto en la URL.
 
 Ejemplo:
 
@@ -656,11 +654,11 @@ Ejemplo:
 ?listen?game=GM_Gameplay
 ```
 
-Se usa para:
+Usado para:
 
 - pruebas;
 - servidores locales;
-- parámetros automáticos al iniciar.
+- parámetros de inicio automáticos.
 
 ---
 
@@ -668,14 +666,14 @@ Se usa para:
 
 Mapa que:
 
-- se carga temporalmente al cambiar de niveles (Seamless Travel).
+- Se carga temporalmente al cambiar niveles (Seamless Travel).
 
-Se usa en multijugador:
+Usado en multijugador:
 
-- para evitar congelamientos;
-- para una transición fluida entre niveles.
+- Para evitar pausas bruscas;
+- Para transiciones suaves entre niveles.
 
-En un jugador único, normalmente no es necesario.
+En modo de un solo jugador, generalmente no se requiere.
 
 ---
 
@@ -683,17 +681,17 @@ En un jugador único, normalmente no es necesario.
 
 Mapa que:
 
-- se carga al iniciar un servidor dedicado.
+- se carga al iniciar el servidor dedicado.
 
-Normalmente:
+Usualmente:
 
 - `Entry`;
 - o `Lvl_Lobby`.
 
 Importante:
 
-- no afecta al cliente;
-- solo se aplica en versiones de servidor.
+- No afecta al cliente;
+- Solo aplicado en la compilación para servidor.
 
 ---
 
@@ -714,9 +712,9 @@ Esquema típico de configuración:
 - **Game Default Map**   -> `Lvl_Menu`
 - **Default GameMode**   -> `GM_Menu`
 - **Menu Map Override**  -> `GM_Menu`
-- **Gameplay Maps**      -> `GM_Gameplay` (mediante Override o Prefijo)
+- **Gameplay Maps**      -> `GM_Gameplay` (usando Override o Prefijo)
 
-Esta configuración asegura una separación clara entre el menú, el gameplay y la lógica del servidor, además de simplificar la escalabilidad del proyecto.
+Este esquema asegura una separación clara entre el menú, el juego y la lógica del servidor, al mismo tiempo que simplifica la escalabilidad del proyecto.
 
 </details> 
 
@@ -734,7 +732,7 @@ Esta configuración asegura una separación clara entre el menú, el gameplay y 
 ###### # Create Session 
 
 <h1 align="center"> 
-Crear sesión con configuración previa
+Create Session con configuración previa
 </h1>
 
 <div align="center">
@@ -764,7 +762,7 @@ GameMode
 ###### # Find Session
 
 <h1 align="center"> 
-Encontrar sesión con configuración previa
+Find Session con configuración previa
 </h1>
 
 <div align="center">
@@ -857,7 +855,7 @@ SOLO PLAY
 ###### # Has Online Subsystem
 
 <h1 align="center"> 
-Has Online Subsystem cuál subsistema está activo
+Has Online Subsystem, qué subsistema está activo
 </h1>
 
 <div align="center">
@@ -899,14 +897,14 @@ NULL
 
 <h1 align="center"> 📜 Licencia </h1>
 <p align="center">
-  <strong> Este proyecto está distribuido bajo la </strong> 
-  <a href="/LICENSE">Licencia Apache</a> 
+  <strong> Este proyecto se distribuye bajo la </strong> 
+  <a href="/LICENSE">Apache License</a> 
 </p>
 
 ---
 
 <h2 align="center"> 
-Documentación, consúltela aquí 
+Documentación, revísala 
 </h2>
 
 <p align="center">

@@ -228,7 +228,7 @@ Default Modes
 ## Default GameMode
 
 <details>
-    <summary> ⚙️ Развернуть описание </summary>
+    <summary align="center"> ⚙️ Развернуть описание </summary>
 
 **Default GameMode** - это `GameMode`, который будет использоваться:
 
@@ -271,7 +271,7 @@ Selected GameMode
 **Selected GameMode** - Это блок определяет набор классов для выбранного `GameMode` (в данном случае `GM_Menu`).
 
 <details> 
-    <summary> ⚙️ Развернуть описание </summary>
+    <summary  align="center"> ⚙️ Развернуть описание </summary>
 ---
 
 ### Default Pawn Class
@@ -401,7 +401,7 @@ Advanced (GameMode)
 </div>
 
 <details> 
-    <summary> ⚙️ Развернуть описание </summary>
+    <summary  align="center"> ⚙️ Развернуть описание </summary>
 
 ### Global Default Server Game Mode
 
@@ -578,7 +578,7 @@ Default Maps
 
 
 <details> 
-    <summary> ⚙️ Развернуть описание </summary>
+    <summary  align="center"> ⚙️ Развернуть описание </summary>
 
 
 ### Editor Startup Map
@@ -644,7 +644,7 @@ Advanced (Maps)
 </div>
 
 <details> 
-    <summary> ⚙️ Развернуть описание </summary>
+    <summary align="center"> ⚙️ Развернуть описание </summary>
 
 ### Local Map Options
 
